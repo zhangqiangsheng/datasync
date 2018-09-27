@@ -1,0 +1,4 @@
+package:
+    script:
+    - mvn clean -Dmaven.test.skip=true package
+    - ./put.sh
